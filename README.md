@@ -40,7 +40,7 @@ The app integrates with a **3rd-party API** to display various news articles.
    CREATE DATABASE IF NOT EXISTS laravel;
    EXIT;
 8. Log into the Docker container (sail-8.4/app).
-9. Run migrations:
+9. Run migrations and build front-end:
    ```bash
    php artisan migrate
    npm install
