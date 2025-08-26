@@ -43,6 +43,8 @@ The app integrates with a **3rd-party API** to display various news articles.
 9. Run migrations:
    ```bash
    php artisan migrate
+   npm install
+   npm run dev
 10. Generate the application key if not already generated:
     ```bash
     php artisan key:generate
