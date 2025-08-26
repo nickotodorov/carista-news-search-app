@@ -9,5 +9,5 @@ Route::get('/', [NewsController::class, 'index'])
     ->name('news.index');
 
 Route::get('/search', [NewsController::class, 'search'])
-    //->middleware(['throttle:search-form'])
+    ->middleware('throttle:20,1')
     ->name('news.search');
