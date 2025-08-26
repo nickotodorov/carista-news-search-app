@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    const string TABLE_NAME = 'new_searches';
+    const string TABLE_NAME = 'news_searches';
 
     public function up(): void
     {

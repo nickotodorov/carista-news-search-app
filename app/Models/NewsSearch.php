@@ -11,7 +11,7 @@ class NewsSearch extends Model
 {
     use HasFactory;
 
-    protected $table = 'new_searches';
+    protected $table = 'news_searches';
 
     protected $fillable = [
         'raw_payload',
