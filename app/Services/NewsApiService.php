@@ -60,7 +60,6 @@ final class NewsApiService
                     );
 
                 } catch (\Throwable $e) {
-                    dd($e);
                     $this->logger->error('NewsAPI request failed', [
                         'keyword' => $keyword,
                         'error' => $e->getMessage(),
