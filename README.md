@@ -19,7 +19,13 @@ The app integrates with a **3rd-party API** to display various news articles.
 ![Screenshot of the app](2.png)
 
 ## How to Set Up
+Prerequisites:
+- installed globally PHP 8.4.11 (cli) (built: Jul 29 2025 15:30:21) (NTS) on MacOs 15.5
+- installed globally Composer version 2.8.11
 
+1. Clone the repository
+2. Install PHP 8.4.11 if it is missing (you can use brew install php)
+3. Install composer version 2.8.11
 1. Copy `.env.example` into `.env`.
 2. Add your private key to `NEWSAPI_KEY=` in the `.env` file.
 3. Install Laravel Sail (development dependency):
